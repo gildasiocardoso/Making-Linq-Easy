@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataModelSample" targetNamespace="http://tempuri.org/DataModelSample.xsd" xmlns:mstns="http://tempuri.org/DataModelSample.xsd" xmlns="http://tempuri.org/DataModelSample.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataModelSample" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataModelSample" msprop:Generator_UserDSName="DataModelSample">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TRIP" msprop:Generator_TableClassName="TRIPDataTable" msprop:Generator_TableVarName="tableTRIP" msprop:Generator_RowChangedName="TRIPRowChanged" msprop:Generator_TablePropName="TRIP" msprop:Generator_RowDeletingName="TRIPRowDeleting" msprop:Generator_RowChangingName="TRIPRowChanging" msprop:Generator_RowEvHandlerName="TRIPRowChangeEventHandler" msprop:Generator_RowDeletedName="TRIPRowDeleted" msprop:Generator_RowClassName="TRIPRow" msprop:Generator_UserTableName="TRIP" msprop:Generator_RowEvArgName="TRIPRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_TRIP" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msdata:Caption="ID Trip" msprop:Generator_ColumnVarNameInTable="columnID_TRIP" msprop:Generator_ColumnPropNameInRow="ID_TRIP" msprop:Generator_ColumnPropNameInTable="ID_TRIPColumn" msprop:Generator_UserColumnName="ID_TRIP" type="xs:long" />
+              <xs:element name="NUMBER_OF_PARTICIPANTS" msdata:Caption="Number of Participants" msprop:Generator_ColumnVarNameInTable="columnNUMBER_OF_PARTICIPANTS" msprop:Generator_ColumnPropNameInRow="NUMBER_OF_PARTICIPANTS" msprop:Generator_ColumnPropNameInTable="NUMBER_OF_PARTICIPANTSColumn" msprop:Generator_UserColumnName="NUMBER_OF_PARTICIPANTS" type="xs:int" minOccurs="0" />
+              <xs:element name="DESTINATION" msdata:Caption="Destination" msprop:Generator_ColumnVarNameInTable="columnDESTINATION" msprop:Generator_ColumnPropNameInRow="DESTINATION" msprop:Generator_ColumnPropNameInTable="DESTINATIONColumn" msprop:Generator_UserColumnName="DESTINATION" type="xs:string" minOccurs="0" />
+              <xs:element name="PARTICIPANT" msprop:Generator_TableClassName="PARTICIPANTDataTable" msprop:Generator_TableVarName="tablePARTICIPANT" msprop:Generator_RowChangedName="PARTICIPANTRowChanged" msprop:Generator_TablePropName="PARTICIPANT" msprop:Generator_RowDeletingName="PARTICIPANTRowDeleting" msprop:Generator_RowChangingName="PARTICIPANTRowChanging" msprop:Generator_RowEvHandlerName="PARTICIPANTRowChangeEventHandler" msprop:Generator_RowDeletedName="PARTICIPANTRowDeleted" msprop:Generator_RowClassName="PARTICIPANTRow" msprop:Generator_UserTableName="PARTICIPANT" msprop:Generator_RowEvArgName="PARTICIPANTRowChangeEvent" minOccurs="0" maxOccurs="unbounded">
+                <xs:annotation>
+                  <xs:appinfo>
+                    <msdata:Relationship name="TRIP_PARTICIPANT" msdata:parent="TRIP" msdata:child="PARTICIPANT" msdata:parentkey="ID_TRIP" msdata:childkey="ID_TRIP" msprop:Generator_UserChildTable="PARTICIPANT" msprop:Generator_ChildPropName="GetPARTICIPANTRows" msprop:Generator_UserRelationName="TRIP_PARTICIPANT" msprop:Generator_RelationVarName="relationTRIP_PARTICIPANT" msprop:Generator_UserParentTable="TRIP" msprop:Generator_ParentPropName="TRIPRow" />
+                  </xs:appinfo>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ID_PARTICIPANT" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msdata:Caption="Id Participant" msprop:Generator_ColumnVarNameInTable="columnID_PARTICIPANT" msprop:Generator_ColumnPropNameInRow="ID_PARTICIPANT" msprop:Generator_ColumnPropNameInTable="ID_PARTICIPANTColumn" msprop:Generator_UserColumnName="ID_PARTICIPANT" type="xs:long" />
+                    <xs:element name="NUMBER_OF_PAYMENTS" msdata:Caption="Number of Payments" msprop:Generator_ColumnVarNameInTable="columnNUMBER_OF_PAYMENTS" msprop:Generator_ColumnPropNameInRow="NUMBER_OF_PAYMENTS" msprop:Generator_ColumnPropNameInTable="NUMBER_OF_PAYMENTSColumn" msprop:Generator_UserColumnName="NUMBER_OF_PAYMENTS" type="xs:int" minOccurs="0" />
+                    <xs:element name="ID_TRIP" msdata:Caption="Id Trip" msprop:Generator_ColumnVarNameInTable="columnID_TRIP" msprop:Generator_ColumnPropNameInRow="ID_TRIP" msprop:Generator_ColumnPropNameInTable="ID_TRIPColumn" msprop:Generator_UserColumnName="ID_TRIP" type="xs:long" minOccurs="0" />
+                    <xs:element name="NAME_OF_PARTICIPANT" msdata:Caption="Participant Name" msprop:Generator_ColumnVarNameInTable="columnNAME_OF_PARTICIPANT" msprop:Generator_ColumnPropNameInRow="NAME_OF_PARTICIPANT" msprop:Generator_ColumnPropNameInTable="NAME_OF_PARTICIPANTColumn" msprop:Generator_UserColumnName="NAME_OF_PARTICIPANT" type="xs:string" minOccurs="0" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PAYMENT" msprop:Generator_TableClassName="PAYMENTDataTable" msprop:Generator_TableVarName="tablePAYMENT" msprop:Generator_RowChangedName="PAYMENTRowChanged" msprop:Generator_TablePropName="PAYMENT" msprop:Generator_RowDeletingName="PAYMENTRowDeleting" msprop:Generator_RowChangingName="PAYMENTRowChanging" msprop:Generator_RowEvHandlerName="PAYMENTRowChangeEventHandler" msprop:Generator_RowDeletedName="PAYMENTRowDeleted" msprop:Generator_RowClassName="PAYMENTRow" msprop:Generator_UserTableName="PAYMENT" msprop:Generator_RowEvArgName="PAYMENTRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_PAYMENT" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID_PAYMENT" msprop:Generator_ColumnPropNameInRow="ID_PAYMENT" msprop:Generator_ColumnPropNameInTable="ID_PAYMENTColumn" msprop:Generator_UserColumnName="ID_PAYMENT" type="xs:long" />
+              <xs:element name="PAID_VALUE" msdata:Caption="Paid Value" msprop:Generator_ColumnVarNameInTable="columnPAID_VALUE" msprop:Generator_ColumnPropNameInRow="PAID_VALUE" msprop:Generator_ColumnPropNameInTable="PAID_VALUEColumn" msprop:Generator_UserColumnName="PAID_VALUE" type="xs:decimal" minOccurs="0" />
+              <xs:element name="ID_PARTICIPANT" msdata:Caption="Id Participant" msprop:Generator_ColumnVarNameInTable="columnID_PARTICIPANT" msprop:Generator_ColumnPropNameInRow="ID_PARTICIPANT" msprop:Generator_ColumnPropNameInTable="ID_PARTICIPANTColumn" msprop:Generator_UserColumnName="ID_PARTICIPANT" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="PARTICIPANT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PARTICIPANT" />
+      <xs:field xpath="mstns:ID_PARTICIPANT" />
+    </xs:unique>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:TRIP" />
+      <xs:field xpath="mstns:ID_TRIP" />
+    </xs:unique>
+    <xs:unique name="PAYMENT_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PAYMENT" />
+      <xs:field xpath="mstns:ID_PAYMENT" />
+    </xs:unique>
+    <xs:keyref name="PARTICIPANT_PAYMENT" refer="PARTICIPANT_Constraint1" msprop:rel_Generator_UserChildTable="PAYMENT" msprop:rel_Generator_ChildPropName="GetPAYMENTRows" msprop:rel_Generator_UserRelationName="PARTICIPANT_PAYMENT" msprop:rel_Generator_RelationVarName="relationPARTICIPANT_PAYMENT" msprop:rel_Generator_UserParentTable="PARTICIPANT" msprop:rel_Generator_ParentPropName="PARTICIPANTRow" msdata:UpdateRule="None" msdata:DeleteRule="None">
+      <xs:selector xpath=".//mstns:PAYMENT" />
+      <xs:field xpath="mstns:ID_PARTICIPANT" />
+    </xs:keyref>
+  </xs:element>
+</xs:schema>

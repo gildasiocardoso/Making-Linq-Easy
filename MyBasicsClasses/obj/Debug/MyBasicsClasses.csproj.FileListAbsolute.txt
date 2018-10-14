@@ -1,0 +1,12 @@
+D:\GILDASIO\Portfolio\MakingLinqEasy\MyBasicsClasses\obj\Debug\MyBasicsClasses.csprojAssemblyReference.cache
+D:\GILDASIO\Portfolio\MakingLinqEasy\MyBasicsClasses\obj\Debug\MyBasicsClasses.csproj.CoreCompileInputs.cache
+D:\GILDASIO\Portfolio\MakingLinqEasy\MyBasicsClasses\bin\Debug\MyBasicsClasses.dll
+D:\GILDASIO\Portfolio\MakingLinqEasy\MyBasicsClasses\bin\Debug\MyBasicsClasses.pdb
+D:\GILDASIO\Portfolio\MakingLinqEasy\MyBasicsClasses\obj\Debug\MyBasicsClasses.dll
+D:\GILDASIO\Portfolio\MakingLinqEasy\MyBasicsClasses\obj\Debug\MyBasicsClasses.pdb
+D:\GILDASIO\Portfolio\MyBasicsClasses\bin\Debug\MyBasicsClasses.dll
+D:\GILDASIO\Portfolio\MyBasicsClasses\bin\Debug\MyBasicsClasses.pdb
+D:\GILDASIO\Portfolio\MyBasicsClasses\obj\Debug\MyBasicsClasses.csprojAssemblyReference.cache
+D:\GILDASIO\Portfolio\MyBasicsClasses\obj\Debug\MyBasicsClasses.csproj.CoreCompileInputs.cache
+D:\GILDASIO\Portfolio\MyBasicsClasses\obj\Debug\MyBasicsClasses.dll
+D:\GILDASIO\Portfolio\MyBasicsClasses\obj\Debug\MyBasicsClasses.pdb

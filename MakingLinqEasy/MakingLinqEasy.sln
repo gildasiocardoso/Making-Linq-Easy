@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingLinqEasyMultipleJoin", "MakingLinqEasyMultipleJoin\MakingLinqEasyMultipleJoin\MakingLinqEasyMultipleJoin.csproj", "{3FB30927-2944-4FCD-99D6-246FDD8C7693}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBasicsClasses", "..\MyBasicsClasses\MyBasicsClasses.csproj", "{DC454A84-C70E-424F-81DB-D055606AD922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB30927-2944-4FCD-99D6-246FDD8C7693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB30927-2944-4FCD-99D6-246FDD8C7693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB30927-2944-4FCD-99D6-246FDD8C7693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB30927-2944-4FCD-99D6-246FDD8C7693}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC454A84-C70E-424F-81DB-D055606AD922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC454A84-C70E-424F-81DB-D055606AD922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC454A84-C70E-424F-81DB-D055606AD922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC454A84-C70E-424F-81DB-D055606AD922}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C074790-A9F3-491C-9B93-A49448176873}
+	EndGlobalSection
+EndGlobal
